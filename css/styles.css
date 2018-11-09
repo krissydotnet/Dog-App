@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    padding: 1rem .5rem;
+    background-color: #001747;
+    color: #70D6BC;
+    display: flex;
+}
+.left-header {
+    flex-basis: 49%;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 2rem;
+    
+}
+.right-header {
+    flex-basis: 49%;
+    text-align: right;
+    align-self: flex-end;
+}
+select {
+    font-size: 1.5rem;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+main {
+    background-color: #11487D;
+    height: 100vh;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    padding: 2rem;
+
+}
+
+.imgTag {
+    height: 100%;
+    border: 10px solid white;
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .2);
+}
+@keyframes spin {
+    to {
+      transform: rotateZ(180deg) rotateX(180deg) rotateY(180deg);
+    }
+  }
+  .spin {
+    animation: spin 1s ease-in-out infinite;
+  }
+.dogLogo {
+    font-size: 4rem;
+    color: white;
+    background-color: #001747;
+    border-radius: 50%;
+    padding: .5rem;
+}
+.hide {
+    display: none;
+}
+footer {
+    padding: 1rem .5rem;
+    background-color: #001747;
+    color: #70D6BC;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
